@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "High-resolution. popular Kids Game random character generation. full 3D rendering with random theme based on the characters generated. Capcom, sega, Playstation games,  xbox games, Nintendo games, runescape, roblox, minecraft, etc.. ",
+      prompt: "High-resolution. A few popular Kids Game random character generation. full 3D rendering with random theme based on the characters generated. Capcom, sega, Playstation games,  xbox games, Nintendo games, runescape, roblox, minecraft, etc.. ",
     };
 
     const response = await env.AI.run(
