@@ -1,8 +1,8 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "High-resolution. A few ("1-5") popular Kids Game random character generation. full 3D rendering with random theme based on the characters generated. Capcom, sega, Playstation games,  xbox games, Nintendo games, runescape, roblox, minecraft, etc.. ",
-    };
+  prompt: "A high-resolution, full 3D rendering of **[Character Name]** in a realistic style, detailed cinematic lighting, and a dynamic pose that captures the character's essence. The scene is a mix of sci-fi and fantastical elements, with a vibrant color palette.",
+};
 
     const response = await env.AI.run(
       "@cf/stabilityai/stable-diffusion-xl-base-1.0",
