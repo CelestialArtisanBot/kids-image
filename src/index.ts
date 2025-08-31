@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "cyberpunk cat",
+      prompt: "popular Kids Game random character generation,  full 3D rendering with random theme based on the characters generated",
     };
 
     const response = await env.AI.run(
