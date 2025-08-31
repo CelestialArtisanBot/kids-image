@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-  prompt: "A high-resolution, full 3D rendering of **[Character Name]** in a realistic style, detailed cinematic lighting, and a dynamic pose that captures the character's essence. The scene is a mix of sci-fi and fantastical elements, with a vibrant color palette.",
+  prompt: "A high-resolution, full 3D rendering of **[Random popular game or cartoon character]** in a realistic style, detailed cinematic lighting, and a dynamic pose that captures the character's essence. The scene is a mix of sci-fi and fantastical elements, with a vibrant color palette.",
 };
 
     const response = await env.AI.run(
