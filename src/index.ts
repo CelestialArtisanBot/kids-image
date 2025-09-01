@@ -3,7 +3,7 @@ export default {
     // 🧬 Lore-encoded prompt: cinematic, symbolic, and genre-fused
     const inputs = {
       prompt:
-        "A high-resolution, full 3D rendering of **[Nintendo/Sony/Microsoft/jagex character]** in a realistic style, detailed cinematic lighting, and a dynamic pose that captures the character's essence. The scene is a mix of sci-fi and fantastical elements, with a vibrant color palette.",
+        "  prompt: "A high-resolution, full 3D rendering of a legendary **[Nintendo/Sony/Microsoft/Jagex character]**, captured in a hyper-realistic style with dramatic cinematic lighting. The character strikes a dynamic, emotionally charged pose that embodies their core mythos. The environment fuses sci-fi architecture with fantastical terrain—glowing glyphs, arcane machinery, and surreal atmospheric effects. The color palette is vibrant yet harmonized, with radiant highlights and deep shadows that evoke a sense of epic scale and symbolic resonance." ",
     };
 
     // 🌀 Invoke image synthesis shard
